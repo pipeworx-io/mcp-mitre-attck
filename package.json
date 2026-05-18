@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-mitre-attck",
+  "version": "0.1.0",
+  "description": "MITRE ATT&CK adversary TTPs (STIX bundles)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mitre-attck"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-mitre-attck"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
