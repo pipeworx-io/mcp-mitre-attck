@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mitre-attck",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MITRE ATT&CK MCP — STIX bundles from github.com/mitre/cti.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-948a81365397e3e411910ab749e6dfebfeb7f623833210318ee728d042fee980",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-f985929daa659f50a5ef2ce5a405284c72eed01d69694c1119137ecf286fd5c9",
+    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
   }
 }

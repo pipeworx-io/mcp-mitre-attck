@@ -2,7 +2,7 @@
 
 MITRE [ATT&CK](https://attack.mitre.org) MCP — adversary tactics, techniques, and procedures (TTPs). Sources the official STIX 2.1 bundles from MITRE's GitHub. Cached 1h in-pack.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1679+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1683+ live data sources.
 
 ## Tools
 
@@ -62,7 +62,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1679+ data sources. The
+Both URLs reach the same gateway and the same 1683+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
