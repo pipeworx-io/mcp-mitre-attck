@@ -1,0 +1,122 @@
+[
+  {
+    "name": "technique",
+    "description": "Technique by ATT&CK id.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "tactic",
+    "description": "Tactic by id or short name.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id_or_short_name": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id_or_short_name"
+      ]
+    }
+  },
+  {
+    "name": "group",
+    "description": "Threat group (e.g. G0007).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "software",
+    "description": "Software/malware (e.g. S0002).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "mitigation",
+    "description": "Mitigation.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "search",
+    "description": "Substring search across the bundle.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "description": "attack-pattern | intrusion-set | tool | malware | x-mitre-tactic | course-of-action"
+        },
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "domains",
+    "description": "List loaded STIX bundles.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
